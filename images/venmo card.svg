@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="585" viewBox="0 0 1520 585">
+  <g id="Group_8" data-name="Group 8" transform="translate(-200 -931)">
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(200 931)" fill="#0483f1" stroke="#707070" stroke-width="1">
+      <rect width="1520" height="585" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1519" height="584" fill="none"/>
+    </g>
+    <text id="VENMO_REDESIGN" data-name="VENMO
+REDESIGN" transform="translate(274 1203)" fill="#fff" font-size="85" font-family="Jost" font-weight="700"><tspan x="0" y="0">VENMO</tspan><tspan x="0" y="100">REDESIGN</tspan></text>
+    <text id="CASE_STUDY" data-name="CASE STUDY" transform="translate(274 1047)" fill="#fff" font-size="20" font-family="Jost" font-weight="700" letter-spacing="0.5em"><tspan x="0" y="0">CASE STUDY</tspan></text>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(811 1039)" fill="#fff" stroke="#707070" stroke-width="1">
+      <path d="M40,0H349a40,40,0,0,1,40,40V477a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V40A40,40,0,0,1,40,0Z" stroke="none"/>
+      <path d="M40,.5H349A39.5,39.5,0,0,1,388.5,40V476.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V40A39.5,39.5,0,0,1,40,.5Z" fill="none"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(1241 1126)" fill="#fff" stroke="#707070" stroke-width="1">
+      <path d="M40,0H349a40,40,0,0,1,40,40V390a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V40A40,40,0,0,1,40,0Z" stroke="none"/>
+      <path d="M40,.5H349A39.5,39.5,0,0,1,388.5,40V389.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V40A39.5,39.5,0,0,1,40,.5Z" fill="none"/>
+    </g>
+  </g>
+</svg>
