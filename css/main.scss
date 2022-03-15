@@ -18,7 +18,7 @@ ul {
 }
 
 a {
-    text-decoration: 0;
+    text-decoration: none;
 }
 
 img {
@@ -117,6 +117,7 @@ header {
     padding: 4em 2em 6em;
     display: flex;
     justify-content: center;
+    font-family: 'Jost', Arial;
     
     li {
         padding: 1em 0em;
