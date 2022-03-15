@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Jost', arial;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: 0;
+}
+
+img {
+    width: 100%;
+
+}
+
+.nav-container {
+    background: white;
+
+    a {
+        color: black;
+    }
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo {
+        color: black;
+        font-weight: bolder;
+        font-size: larger;
+    }
+
+    ul {
+        display: flex;
+        float: right;
+
+        a {
+            display: block;
+            padding-left: 2em;
+            font-size: medium;
+        }
+
+    }
+
+    
+}
+
+.main-screen {
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: large;
+    padding: 4em 1em;
+    line-height: 95%;
+
+    p {
+        font-size: medium;
+  
+    }
+
+    p, h1{
+        margin: 0;
+        padding: 0.3em;
+    }
+}
+
+.btn {
+    font-family: 'Jost', Arial;
+    color: white;
+    background: #7890F4;
+    padding: 0.75em 1em;
+    border: 0em;
+    border-radius: 25px;
+    font-size: medium;
+    transition: all .2s ease-in-out; 
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.3); 
+
+}
+
+.work {
+    text-align: center;
+    font-size: larger;
+    background: white;
+    color: black;
+    line-height: 50%;
+    padding: 4em 2em;
+}
+
+.subtitle {
+    color: #7890F4;
+    font-style: italic;
+    font-size: small;        
+}
+
+.work-cards{
+    padding: 4em 2em 6em;
+    display: flex;
+    justify-content: center;
+    
+    li {
+        padding: 1em 0em;
+    }
+
+    .card1, .card2, .card3 {
+        transition: all .2s ease-in-out; 
+    }
+}
+
+.card1:hover, .card2:hover, .card3:hover{
+    transform: scale(1.1); 
+}
+
+.contact {
+    padding: 2em;
+    background: #7890F4;
+    color: white;
+    text-align: center;
+
+    .bio {
+        font-size: small;
+    }
+    
+    ul{
+        display: flex;
+        justify-content: center;
+        li{
+            display: block;
+            padding: 1em;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 680px) {
+
+    header {
+        padding: 2em 4em;
+
+        ul{
+            a{
+                padding-left: 3em;
+            }
+        }
+    }
+
+    .main-screen {
+        font-size: xx-large;
+        padding: 5em 1em;
+
+        p, .btn {
+            font-size: large;
+        }
+
+
+    }
+
+    .work-cards{
+        padding: 0em 2em 10em;
+        
+        li {
+            padding: 2.5em 2em;
+        }
+    
+    }
+
+    .contact {
+        li {
+            width: 20px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+    header {
+        padding: 2em 6em;
+        font-size: large;
+
+        ul{
+            a{
+                padding-left: 4em;
+                font-size: large;
+            }
+        }
+    }
+
+    .main-screen {
+        font-size: xx-large;
+        padding: 6em 1em;
+
+        p, .btn {
+            font-size: large;
+        }
+
+
+    }
+
+    .work-cards{
+        padding: 0em 2em 15em;
+        
+        li {
+            padding: 4em 15em;
+        }
+    
+    }
+
+    .contact {
+        .bio {
+            font-size: medium;
+        }
+
+        li {
+            width: 25px;
+        }
+    }
+
+}
